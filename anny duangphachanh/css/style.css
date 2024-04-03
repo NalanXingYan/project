@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Lao_House;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgb(151, 212, 240);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgb(255, 255, 255);
+    width: 85px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgb(0,0,0,0.1);
+
+}
+.logo{
+    display: flex;
+    transition: all 0.5s ease;
+}
+.logo img{
+    width: 75px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logo span{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    color: #004094;
+    display: table;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.logo:hover{
+    background: rgb(255, 255, 255);
+
+}
+.home{
+    position: relative;
+    color: #004094;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.home span{
+    margin-left: 30px;
+}
+.home:hover{
+    background: rgb(255, 255, 255);
+}
+.mana{
+    position: relative;
+    color: #004094;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.mana span{
+    margin-left: 30px;
+}
+.mana:hover{
+    background: rgb(255, 255, 255);}
+.user{
+    position: relative;
+    color: #004094;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.user span{
+    margin-left: 34px;
+}
+.user:hover{
+    background: rgb(255, 255, 255);}
+.cont{
+    position: relative;
+    color: #004094;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.cont span{
+    margin-left: 30px;
+}
+.cont:hover{
+    background: rgb(255, 255, 255);}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 30px;
+}
+nav:hover{
+    width: 210px;
+    transition: all 0.5s ease;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    color: #004094;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.logout span{
+    margin-left: 30px;
+}
+.logout:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+    background: rgb(255, 255, 255);
+}
+h3{
+    color: #004094;
+}
+h1 h3{
+    margin-top: 40%;
+}
+table {
+    margin-left: 220px;
+    margin-right: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+
+th {
+background-color: rgb(255, 255, 255);
+color: #004094;
+}
+td {
+padding: 10px;
+text-align: left;
+}
+td {
+border: 1px solid #004094;
+border-collapse: collapse;
+background-color: rgb(255, 255, 255);
+color: #004094;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+    color: #004094;
+}
+h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #004094;
+    display: block;
+    margin: auto;
+}
+.section{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.service{
+    margin-left: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;;
+}
+.card:hover{
+    background-color: rgb(90, 219, 202);
+    transition: 0.4s ease;
+}
+.card .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #004094;
+}
+.card p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #004094;
+}
+.card h2{
+    color: #004094;
+}
+.button{
+    font-size: 15px;
+    text-decoration: none;
+    color: #004094;
+    background-color: rgb(217, 235, 243);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.button:hover{
+    background-color: rgb(23, 134, 28);
+    transition: 0.4s ease;
+}
+.cardss{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;;
+}
+.cardss h2{
+    color: #004094;
+}
+.you{
+    font-size: 30px;
+    top: -10px;
+}
+.youin:hover{
+    color: #ffffff;
+    background-color: rgb(27, 202, 65);
+    transition: 0.4s ease;
+}
+.youin{
+    margin-left: 160px;
+    text-decoration: none;
+    color: #004094;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.youout{
+    margin-left: 450px;
+    text-decoration: none;
+    color: #004094;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.youout:hover{
+    color: #ffffff;
+    background-color: rgb(211, 28, 28);
+    transition: 0.4s ease;
+}
+.youu{
+    text-decoration: none;
+    color: #004094;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.youu:hover{
+    color: #000000;
+    background-color: rgb(229, 255, 0);
+    transition: 0.4s ease;
+}
+.youn{
+    text-decoration: none;
+    color: #004094;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.youn:hover{
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.4s ease;
+}
+.la{
+    color: #ffffff;
+    font-size: 30px;
+}
